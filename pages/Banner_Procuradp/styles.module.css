@@ -1,4 +1,7 @@
 .container{
-   width: 25%;
-   height: 25%;
-};
+   display:flex;
+   height: 95%;
+   width: 80%;
+   transform: translateX(12%);
+}
+

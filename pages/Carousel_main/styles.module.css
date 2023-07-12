@@ -1,0 +1,56 @@
+.carouselContainer {
+    position: relative;
+    z-index: 0;
+
+  }
+  
+  .customNextArrow {
+    position: absolute;
+    top: 50%;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    transform: translateY(-50%);
+    right: 5px;
+
+  }
+  
+.customPrevArrow{
+    position: absolute;
+    z-index: 11;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    transform: translateY(885%);
+}
+
+
+
+.carouselLi {
+    margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
+  
+}
+
+.indicatorDotSelected{
+    z-index: 14;
+    width: 50px;
+    height: 5px;
+    margin: 0 10px;
+    background-color: black;
+    
+    display: block;
+}
+.indicatorDot{
+    z-index: 14;
+    margin: 0 10px;
+    width: 50px;
+    height: 5px;
+    background-color: grey;
+    
+    display: block;
+}
+  
+  
+  
